@@ -1,6 +1,6 @@
 # Microblog Flask
 
-![Microblog](https://github.com/rafael-hsm/microblog_flask/static/microblog.png)
+![Microblog](https://github.com/rafael-hsm/microblog_flask/blob/main/static/microblog.png)
 
 Microblog created during course: Web Developer Bootcamp with Flask and Python in 2023
 
