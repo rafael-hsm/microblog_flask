@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Microblog</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='microblog-logo.svg') }}" type="image/svg+xml">
+
 
 </head>
 <body>
@@ -19,7 +21,7 @@
     </ul>
    </header> 
    <main class="main">
-    <section>
+    <section class="section-entry" id="entry_section">
         <h1>Add new entry</h1>
         <form class="form" method="POST">
             <p class="form__input">
@@ -29,7 +31,7 @@
             <button class="form__submit" type="submit">Add entry</button>
         </form>
     </section>
-    <section>
+    <section class="section-posts" id="posts_section">
         <h1>Recent posts</h1>
         {% for entry in entries %}
         <article class="entry">

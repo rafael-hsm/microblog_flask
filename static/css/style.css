@@ -10,12 +10,12 @@ html {
 
 body {
     box-sizing: border-box;
-    background-color: rgb(40, 41, 41);
+    background: linear-gradient(to bottom, purple, rgb(8, 8, 175));
     color: aliceblue;
 }
 
 .navbar {
-    max-width: 640px;
+    max-width: 960px;
     margin: 50px auto;
     padding: 0 20px;
     display: flex;
@@ -38,7 +38,7 @@ body {
     flex-direction: row;
     padding: 0;
     list-style: none;
-    color: #5c6b70;
+    color: #e3eef1;
 }
 
 .navbar__navigation-item {
@@ -51,9 +51,19 @@ body {
 }
 
 .main {
-    max-width: 450px;
+    max-width: 960px;
     margin: 0 auto;
     padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#entry_section {
+    width: 450px;
+}
+
+#posts_section {
+    width: 450px;
 }
 
 .form {
@@ -81,12 +91,12 @@ body {
 }
 
 .form__submit {
-    background-color: #3cd0ff;
+    background-color: #267992;
     border: none;
     font-size: 18px;
     font-weight: bold;
     padding: 5px 30px;
-    border-radius: 20px;
+    border-radius: 10px;
     color: white;
     cursor: pointer;
 }
@@ -123,7 +133,7 @@ body {
 }
 
 .footer__content {
-    max-width: 640px;
+    max-width: 960;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
