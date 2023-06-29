@@ -1,12 +1,16 @@
 # Microblog Flask
 
+Access the system: https://microblog-rhsm.onrender.com
+
+Solution developed during the course: Web Developer Bootcamp with Flask and Python in 2023 and implemented some tweaks and features.
+
 ![Microblog](https://github.com/rafael-hsm/microblog_flask/blob/main/static/microblog.png)
 
-Microblog created during course: Web Developer Bootcamp with Flask and Python in 2023
+Microblog created during the course: Web Developer Bootcamp with Flask and Python in 2023
 
-I implemented some visual features, but there are others update to implemet, and if you want suggest someone you can open an Issue.
+I implemented some visual features, but there are others to be implemented, and if you want to suggest some improvement, you can open an Issue.
 
-For use this locally:
+To use locally:
 
 ## Tools
 1. Python
